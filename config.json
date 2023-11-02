@@ -2,66 +2,7 @@
     "d_salida": "./salidas",
     "d_entrada": "./entradas",
     "d_extra": "archivos_extra/",
-    "2D": [{
 
-            "nameVar": "COL_MASS",
-            "unidades": "(g/m2)",
-            "varCode": "tephra_col_mass",
-            "Descrip": "Masa total en la columna vertical",
-            "paleta": ["#FFFFFF","#D7D6D7","#C6CACC","#B8C7CC","#9BC8DA","#7CB5D1","#5C9FC0","#438CB1","#C2DB91","#ACCA6F","#96B951","#7DA430","#B6B371","#A99656","#9C7A3B","#905E20","#D29696","#C15F5F","#AC1F1F","#8B1614","#55263C","#560000"],
-            "VLevels": [1E-3,1.5E-3,1E-2, 1.5E-2, 1E-1, 1.5E-1, 1, 1E+1, 1.5E+1, 1E+2, 1.5E+2, 1E+3, 1.5E+3 , 2E+3, 2.5E+3, 3.0E+3, 3.5E+3, 4.0E+3, 4.5E+3, 5.0E+3, 5.5E+3, 6.0E+3],
-            "VLabelStrings": ["1E-3","1.5E-3","1E-2", "1.5E-2", "1E-1", "1.5E-1", "1", "1E+1", "1.5E+1", "1E+2", "1.5E+2", "1E+3", "21.5E+3" , "2E+3", "2.5E+3", "3.0E+3", "3.5E+3", "4.0E+3", "4.5E+3", "5.0E+3", "5.5E+3", "6.0E+3"]
-
-        },
-        {
-            "enable": "",
-            "nameVar": "LOAD",
-            "unidades": "(kg/m2)",
-            "varCode": "tephra_grn_load",
-            "Descrip": "Depósito de cenizas en superficie",
-            "paleta": [ "#FFFFFF", "#E5E5E5", "#D7D6D7", "#C6CACC","#A7C3CC", "#7CB5D1", "#28769E", "#ACCA6F", "#6B931B","#A99656", "#884C0F", "#8B1614","#560000"],
-            "VLevels": [0.025, 0.075, 0.125, 0.175, 0.225, 0.25, 0.75, 1.25, 1.75, 2.25, 2.75, 3.25,10],
-            "VLabelStrings": ["0.025", "0.075", "0.125", "0.175", "0.225", "0.25", "0.75", "1.25", "1.75", "2.25", "2.75", "3.25"]
-        }
-    ],
-    "3D": [
-        {
-
-            "unidades": "(mcg/m3)",
-            "varCode": "tephra_col_mass_pm",
-            "Descrip": "Concentración de cenizas, fracción",
-            "paleta": ["#FFFFFF","#E5E5E5","#D7D6D7","#C6CACC","#B8C7CC","#9BC8DA","#7CB5D1","#5C9FC0","#438CB1","#C2DB91","#ACCA6F","#96B951","#7DA430","#B6B371","#A99656","#9C7A3B","#905E20","#D29696","#C15F5F","#AC1F1F","#8B1614","#55263C","#560000"],
-            "VLevels": [1E-6, 2.5E-6, 5.0E-6, 7.5E-6, 1E-5, 2.5E-5, 5.0E-5, 7.5E-5, 1E-4, 2.5E-4, 5.0E-4, 7.5E-4, 1E-3, 2.5E-3, 5.0E-3, 7.5E-3, 1E-2, 2.5E-2, 5.0E-2, 7.5E-2, 1E-1, 1E-0,3],
-            "VLabelStrings":["1E-6", "2.5E-6", "5.0E-6", "7.5E-6", "1E-5", "2.5E-5", "5.0E-5", "7.5E-5", "1E-4", "2.5E-4", "5.0E-4", "7.5E-4", "1E-3", "2.5E-3", "5.0E-3", "7.5E-3", "1E-2", "2.5E-2", "5.0E-2", "7.5E-2", "1E-1", "1E-0"],
-            "indexs": [0, 1],
-            "indName": ["C_PM2", "C_PM10"],
-            "indLabel": ["PM2", "PM10"]
-        },
-        {
-
-            "unidades": "(mcg/m3)",
-            "varCode": "tephra_con",
-            "Descrip": "Concentración a de cenizas",
-            "paleta": ["#FFFFFF","#E5E5E5","#D7D6D7","#C6CACC","#B8C7CC","#9BC8DA","#7CB5D1","#5C9FC0","#438CB1","#C2DB91","#ACCA6F","#96B951","#7DA430","#B6B371","#A99656","#9C7A3B","#905E20","#D29696","#C15F5F","#AC1F1F","#8B1614","#55263C","#560000"],
-            "VLevels": [1E-6, 2.5E-6, 5.0E-6, 7.5E-6, 1E-5, 2.5E-5, 5.0E-5, 7.5E-5, 1E-4, 2.5E-4, 5.0E-4, 7.5E-4, 1E-3, 2.5E-3, 5.0E-3, 7.5E-3, 1E-2, 2.5E-2, 5.0E-2, 7.5E-2, 1E-1, 1E-0,3],
-            "VLabelStrings": ["1E-6", "2.5E-6", "5.0E-6", "7.5E-6", "1E-5", "2.5E-5", "5.0E-5", "7.5E-5", "1E-4", "2.5E-4", "5.0E-4", "7.5E-4", "1E-3", "2.5E-3", "5.0E-3", "7.5E-3", "1E-2", "2.5E-2", "5.0E-2", "7.5E-2", "1E-1", "1E-0"],
-            "indexs": [0],
-            "indName": ["C_GRND"],
-            "indLabel": ["en superficie"]
-
-        },
-        {
-
-            "unidades": "(gr/m3)",
-            "varCode": "tephra_fl",
-            "Descrip": "Concentración de cenizas a ",
-            "paleta": ["#FFFFFF","#9BC8DA","#5C9FC0","#438CB1","#C2DB91","#7DA430","#A99656","#9C7A3B","#905E20", "#8B1614","#560000"],
-            "VLevels": [0.001,0.0025,0.005,0.0075,0.01,0.025,0.05,0.075,0.1,2,10,30],
-            "VLabelStrings": ["1E-3", "2.5E-3", "5.0E-3", "7.5E-3", "1E-2", "2.5E-2", "5.0E-2", "7.5E-2", "1E-1", "2", "10"],
-            "indexV": "fl",
-            "prefix": "C_FL"
-        }
-    ],
     "cortes": [{
             "nameVar": "C_lat",
             "tipo": "lat",
