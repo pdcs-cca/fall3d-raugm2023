@@ -16,22 +16,23 @@ https://lamca.atmosfera.unam.mx/
 - Código para generar productos: **M.C. Dulce Rosario Herrera Moro**
 - Configuración y creación de entorno: **Esp. Pedro Damián Cruz Santiago**
 
-
 # Ejecución
 El entorno puede ser replicado en **binderhub**  o de forma local utilizando **repo2docker**.
 
-## 1. Desempaquetar los archivos **archivos_extra.tgz** y **entradas.tgz**
+## 1. Desempaquetar los archivos **archivos_extra.tgz**, **entradas-01.tgz** **entradas-02.tgz** y **entradas-03.tgz**
 
 ~~~bash
 tar xzf archivos_extra.tgz
-tar xzf entradas.tgz
+tar xzf entradas-01.tgz
+tar xzf entradas-02.tgz
+tar xzf entradas-03.tgz
 ~~~
 
+## 2. Abrir notebook de Paneles niveles de vuelo y Cortes 
 
-## 2. Ejecutar la celda con el procesamiento de los datos
+Seleccionar el notebook **Panel_niveles_vuelo.ipynb** y **Cortes.ipynb**
 
-Solo se entregar un archivo con datos a procesar, este archivo corresponde a una evento hipotético ocurrido el 18 de octubre del 2023  a las  09 hrs y con una altitud de 3km
 
-Al final se genera un archivo **FL100.gif** a partir de la imágenes generadas en el directorio de salida **./salidas/20231018/Hora_09/Altura_03/C_FL100**  correspondiente a la nivel de vuelo de 10000 pies.
+# 3.  Seleccionar Reiniciar Kernel y ejecutar todas las celdas
 
 
